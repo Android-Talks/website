@@ -1,15 +1,11 @@
 footer_menu__settings:
   menu__items:
-    - title: 'Home'
+    - title: 'Strona główna'
       url: '/'
-    - title: 'Projects'
-      url: '/projects/'
-    - title: 'Elements'
-      url: '/elements/'
-    - title: 'About'
+    - title: 'O mnie'
       url: '/about/'
     - title: 'Blog'
       url: '/blog/'
 
 copyright_text_html: >-
-  <p> 2021 &copy; <a href="/">Vonge</a>. Template by <a href="https://cloudcannon.com/">CloudCannon</a>.</p>
+  <p> 2022 &copy; <a href="https://patrykkosieradzki.com">Patryk Kosieradzki</a>. Template by <a href="https://cloudcannon.com/">CloudCannon</a>.</p>

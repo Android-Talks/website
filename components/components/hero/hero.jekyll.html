@@ -10,10 +10,45 @@
             <h1 class="{{c}}__title">{{ include.title }}</h1>
             <div class="{{c}}__description">{{ include.description_html }}</div>
             <div class="{{c}}__btn">
-              <a href="{{ include.cta_button_link }}" class="cta-button c-button c-button--primary c-button--small">{{ include.cta_button }}</a>
-              <a class="works-button c-button c-button--secondary c-button--small" href="{{ include.works_button_link }}">
-                <span class="circle-bg"><i class="ion ion-md-arrow-down button-arrow"></i></span> {{ include.works_button }}
-              </a>
+              
+              <div class="desktop-grid-podcast">
+                <div style=" margin-top: 1rem; display: inline-grid;">
+
+                <a style="grid-column-start: 1;
+                    grid-column-end: 1; margin-right: 2rem; margin-top: 1rem;" href="https://open.spotify.com/show/2FPhFh2ENa1IHiRyLjOvWq"><img src="/images/spotify-podcast-badge.svg" style="grid-column-start: 1;
+                    grid-column-end: 1;"></a>
+
+                <a style="grid-column-start: 2;
+                    grid-column-end: 2; margin-top: 1rem;" href="https://podcasts.apple.com/podcast/android-talks/id1577077823"><img src="/images/apple-podcasts-badge.svg" style="grid-column-start: 2;
+                    grid-column-end: 2;"></a>
+
+                <a style="grid-column-start: 1;
+                    grid-column-end: 1; margin-top: 1rem;" href="https://www.youtube.com/channel/UCJ71FwtAaIfNp0N9VnzJyJg"><img src="/images/yt-podcast-badge.png" style="max-width: 130px; grid-column-start: 1;
+                    grid-column-end: 1;"></a>
+
+                <a style="grid-column-start: 2;
+                    grid-column-end: 2; margin-top: 1rem;" href="https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS8xODIwMjY1LnJzcw"><img src="/images/google-podcast-badge.svg" style="max-width: 130px; grid-column-start: 2;
+                    grid-column-end: 2;"></a>
+
+                </div>
+              </div>
+
+              <div class="mobile-grid-podcast">
+
+                <a style="display: flex;
+                    flex-direction: column; margin-top: 2rem;" href="https://open.spotify.com/show/2FPhFh2ENa1IHiRyLjOvWq"><img src="/images/spotify-podcast-badge.svg" style="align-self: center; width: 70%;"></a>
+
+                <a style="display: flex;
+                    flex-direction: column; margin-top: 2rem;" href="https://podcasts.apple.com/podcast/android-talks/id1577077823"><img src="/images/apple-podcasts-badge.svg" style="align-self: center; width: 70%;"></a>
+                    
+                    <a style="display: flex;
+                    flex-direction: column; margin-top: 2rem;" href="https://www.youtube.com/channel/UCJ71FwtAaIfNp0N9VnzJyJg"><img src="/images/yt-podcast-badge.png" style="align-self: center; width: 70%;"></a>
+
+                <a style="display: flex;
+                    flex-direction: column; margin-top: 2rem;" href="https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS8xODIwMjY1LnJzcw"><img src="/images/google-podcast-badge.svg" style="align-self: center; width: 70%;"></a>
+
+                </div>
+
             </div>
           </div>
 
