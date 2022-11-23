@@ -2,10 +2,14 @@ footer_menu__settings:
   menu__items:
     - title: 'Strona główna'
       url: '/'
-    - title: 'O mnie'
-      url: '/about/'
+    - title: 'Odcinki'
+      url: '/posts/'
+    - title: 'Newsletter'
+      url: 'https://androiddevnews.com'
     - title: 'Blog'
       url: 'https://patrykkosieradzki.com'
+    - title: 'O mnie'
+      url: '/about/'
 
 copyright_text_html: >-
   <p> 2022 &copy; <a href="https://patrykkosieradzki.com">Patryk Kosieradzki</a></p>
