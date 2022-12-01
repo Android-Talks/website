@@ -13,7 +13,6 @@ Odcinek możesz przesłuchać poniżej lub na wszystkich większych platformach,
 </div>
 
 # Przydatne linki:
-
 - [Blog](https://patrykkosieradzki.com/)
 - [YouTube](https://www.youtube.com/channel/UCJ71FwtAaIfNp0N9VnzJyJg)
 - [Android Dev Newsletter](https://androiddevnews.com/)

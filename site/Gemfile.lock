@@ -1,9 +1,16 @@
 GIT
   remote: https://github.com/CloudCannon/jekyll-watch
-  revision: 328940540e279e77a83eb60ad7c3a94a848f8821
+  revision: d220b890e179afc1c518d34c32be8bf168b19ace
   specs:
     jekyll-watch (2.2.1)
       listen (~> 3.0)
+
+GIT
+  remote: https://github.com/jekyll/jekyll-redirect-from
+  revision: 6a751b274300ece194d8ba7cea934c396dff6163
+  specs:
+    jekyll-redirect-from (0.16.0)
+      jekyll (>= 3.3, < 5.0)
 
 GEM
   remote: https://rubygems.org/
@@ -48,8 +55,6 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-pagebreak (0.6.0)
       jekyll (>= 3.7, < 5.0)
-    jekyll-redirect-from (0.16.0)
-      jekyll (>= 3.3, < 5.0)
     jekyll-sass-converter (2.1.0)
       sassc (> 2.0.1, < 3.0)
     jekyll-sitemap (1.4.0)
@@ -91,7 +96,7 @@ DEPENDENCIES
   cloudcannon-jekyll-bookshop (= 2.2.2)
   jekyll-bookshop (= 2.2.2)
   jekyll-pagebreak (~> 0.3)
-  jekyll-redirect-from
+  jekyll-redirect-from!
   jekyll-sitemap
   jekyll-tagging
   jekyll-watch!
