@@ -7,4 +7,5 @@ group :jekyll_plugins do
   gem 'jekyll-tagging'
   gem "jekyll-sitemap"
   gem "jekyll-pagebreak", "~> 0.3"
+  gem 'jekyll-redirect-from'
 end
