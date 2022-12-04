@@ -1,4 +1,5 @@
-title: Vonge
+title: 'AndroidTalks'
+url: 'https://androidtalks.com'
 
 plugins:
   - jekyll-bookshop

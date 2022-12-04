@@ -12,4 +12,4 @@ footer_menu__settings:
       url: '/about/'
 
 copyright_text_html: >-
-  <p> 2022 &copy; <a href="https://patrykkosieradzki.com">Patryk Kosieradzki</a></p>
+  <p> 2022 &copy; <a href="https://patrykkosieradzki.com" target="_blank">Patryk Kosieradzki</a> · <a href="https://patrykkosieradzki.com/privacy-policy/" target="_blank">Polityka Prywatności</a></p>
