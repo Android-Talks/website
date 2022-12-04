@@ -2,9 +2,9 @@
 title:  AT 01 - LiveData vs SharedFlow i StateFlow w architekturach MVVM i MVI
 date:   2021-07-16 15:00:00 +0300
 image:  '/images/podcast-cover.jpg'
-tags:   [travel, notes]
+tags:   [LiveData, Flow, Architektura]
 ---
-W dzisiejszym odcinku opowiem dlaczego warto używać SharedFlow i StateFlow a jednocześnie przestać używać LiveData poza warstwami UI. Opowiem o zaletach i wadach obu i wpływie na arhitekturę aplikacji.
+W dzisiejszym odcinku opowiem dlaczego warto używać SharedFlow i StateFlow a jednocześnie przestać używać LiveData poza warstwami UI. Opowiem o zaletach i wadach obu i wpływie na architekturę aplikacji.
 
 Odcinek możesz przesłuchać poniżej lub na wszystkich większych platformach, m.in. [Spotify](/spotify), [Apple Podcasts](/apple) czy [Google Podcasts](/google).
 

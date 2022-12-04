@@ -2,7 +2,7 @@
 title:  AT 02 - Dlaczego warto używać Jetpack Compose w aplikacjach na Androida?
 date:   2021-09-12 15:00:00 +0300
 image:  '/images/podcast-cover.jpg'
-tags:   [notes, story, rest]
+tags:   [Compose]
 ---
 W tym odcinku opowiem dlaczego warto używać Jetpack Compose w aplikacjach na Androida.
 

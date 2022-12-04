@@ -2,7 +2,7 @@
 title:  AT 04 - Co nowego w Androidzie? - Podsumowanie Google I/O 2022
 date:   2022-05-24 15:00:00 +0300
 image:  '/images/podcast-cover.jpg'
-tags:   [travel, rest]
+tags:   [GoogleIO]
 ---
 W tym odcinku podsumowuję tegoroczne Google I/O i opowiadam o najciekawszych nowinkach Androidowych.
 

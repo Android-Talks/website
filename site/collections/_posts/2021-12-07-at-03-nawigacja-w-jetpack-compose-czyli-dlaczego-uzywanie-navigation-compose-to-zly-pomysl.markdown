@@ -2,7 +2,7 @@
 title:  AT 03 - Nawigacja w Jetpack Compose, czyli dlaczego używanie navigation-compose to zły pomysł
 date:   2021-12-07 15:00:00 +0300
 image:  '/images/podcast-cover.jpg'
-tags:   [travel, rest]
+tags:   [Compose, Nawigacja]
 ---
 W tym odcinku opowiem z czego lepiej korzystać w Jetpack Compose - używać sugerowanej przez Google biblioteki navigation-compose, a może zostać przy Fragmentach? Posłuchaj i przekonaj się co jest dla Ciebie lepsze.
 
