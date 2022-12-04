@@ -4,12 +4,12 @@ footer_menu__settings:
       url: '/'
     - title: 'Odcinki'
       url: '/posts/'
-    - title: 'Newsletter'
-      url: 'https://androiddevnews.com'
-    - title: 'Blog'
-      url: 'https://patrykkosieradzki.com'
     - title: 'O mnie'
       url: '/about/'
+    - title: 'Blog'
+      url: 'https://patrykkosieradzki.com'
+    - title: 'Newsletter'
+      url: 'https://androiddevnews.com'
 
 copyright_text_html: >-
   <p> 2022 &copy; <a href="https://patrykkosieradzki.com" target="_blank">Patryk Kosieradzki</a> · <a href="https://patrykkosieradzki.com/privacy-policy/" target="_blank">Polityka Prywatności</a></p>
