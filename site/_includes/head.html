@@ -31,4 +31,48 @@
   <link rel="stylesheet" href="/assets/main.css">
 
 
-</head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-GW96PNT3Q1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-GW96PNT3Q1');
+  </script>
+
+
+  <!-- Cookie Consent -->
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+  <script>
+    window.addEventListener("load", function(){
+      window.cookieconsent.initialise({
+        "palette": {
+          "popup": {
+            "background": "#f4f4f4",
+            "text": "#3c3c3c"
+          },
+          "button": {
+            "background": "transparent",
+            "border": "#2d2f34",
+            "text": "#2d2f34"
+          }
+        },
+        "theme": "classic",
+        "position": "bottom-right",
+        "content": {
+          "message": "Ta strona używa ciasteczek 🍪, dzięki czemu otrzymujesz jej najsmaczniejszą wersję.",
+          "dismiss": "OK",
+          "link": "Czytaj więcej",
+          "href": "https://patrykkosieradzki.com/privacy-policy/"
+        }
+      })});
+    </script>
+
+    <!-- Apple Podcasts -->
+    <meta name="apple-itunes-app" content="app-id=1577077823">
+
+    {% seo %}
+
+  </head>

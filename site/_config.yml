@@ -1,5 +1,11 @@
 title: 'AndroidTalks'
+tagline: 'Podcast'
+description: 'Podcast, w którym opowiadam o tworzeniu aplikacji mobilnych, kładąc szczególny nacisk na architekturę, bezpieczeństwo, testy oraz biblioteki i narzędzia, z których warto korzystać.'
 url: 'https://androidtalks.com'
+
+author:
+  name: 'Patryk Kosieradzki'
+  url: https://patrykkosieradzki.com
 
 plugins:
   - jekyll-bookshop
@@ -8,6 +14,7 @@ plugins:
   - jekyll/tagging
   - jekyll-pagebreak
   - jekyll-redirect-from
+  - jekyll-seo-tag
 
 # Multiple bookshops can be used on one website,
 # or different production / staging locations.
