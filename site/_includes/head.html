@@ -13,13 +13,13 @@
   <meta property="twitter:domain" content="androidtalks.com">
   <meta name="twitter:title" content="{% if page.url == "/" %}{{ site.data.general_settings.title }}{% else %}{{ page.title }} – {{ site.data.general_settings.title }}{% endif %}">
  <meta name="twitter:description" content="{% if page.url == "/" %}{{ site.data.general_settings.description | strip_html | xml_escape }}{% elsif page.description %}{{ page.description | strip_html | xml_escape }}{% else %}{{ page.excerpt | strip_html | xml_escape }}{% endif %}">
-  <meta name="twitter:image" content="{{ site.data.general_settings.social_media_share_image | absolute_url }}">
+  <meta name="twitter:image" content="https://androidtalks.com/images/og.png">
 
   <!-- Facebook OpenGraph -->
   <meta property="og:type" content="website">
   <meta property="og:title" content="{% if page.url == "/" %}{{ site.data.general_settings.title }}{% else %}{{ page.title }} – {{ site.data.general_settings.title }}{% endif %}">
   <meta property="og:description" content="{% if page.url == "/" %}{{ site.data.general_settings.description | strip_html | xml_escape }}{% elsif page.description %}{{ page.description | strip_html | xml_escape }}{% else %}{{ page.excerpt | strip_html | xml_escape }}{% endif %}">
-  <meta property="og:image" content="{% if page.url == "/" %}{{ site.data.general_settings.social_media_share_image | absolute_url }}{% else %}{{ page.image | absolute_url }}{% endif %}">
+  <meta property="og:image" content="https://androidtalks.com/images/og.png">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
@@ -92,6 +92,19 @@
 
         <!-- Apple Podcasts -->
         <meta name="apple-itunes-app" content="app-id=1577077823">
+
+<!-- Newsletter popup -->
+        <!-- MailerLite Universal -->
+<script>
+(function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){
+var c={ a:arguments,q:[]};var r=this.push(c);return "number"!=typeof r?r:f.bind(c.q);}
+f.q=f.q||[];m[e]=m[e]||f.bind(f.q);m[e].q=m[e].q||f.q;r=a.createElement(i);
+var _=a.getElementsByTagName(i)[0];r.async=1;r.src=l+'?v'+(~~(new Date().getTime()/1000000));
+_.parentNode.insertBefore(r,_);})(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
+
+var ml_account = ml('accounts', '3548435', 'g8f0t2k6x8', 'load');
+</script>
+<!-- End MailerLite Universal -->
 
         {% seo %}
 
